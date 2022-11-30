@@ -21,7 +21,8 @@
 	url = https://github.com/riscv-boom/riscv-boom.git
 [submodule "generators/gemmini"]
 	path = generators/gemmini
-	url = https://github.com/ucb-bar/gemmini
+	url = https://github.com/gnodipac886/gemmini.git
+	branch = PE_BLACKBOX
 [submodule "opensbi"]
 	path = opensbi
 	url = https://github.com/riscv/opensbi.git

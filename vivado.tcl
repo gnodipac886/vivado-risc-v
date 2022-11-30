@@ -39,6 +39,7 @@ set files [list \
  [file normalize "../../board/${vivado_board_name}/ethernet-${vivado_board_name}.v"] \
  [file normalize "../../board/mem-reset-control.v"] \
  [file normalize "../../board/fan-control.v"] \
+ [file normalize "../../generators/gemmini/src/main/resources/vsrc/full_mul.sv"] \
 ]
 add_files -norecurse -fileset $source_fileset $files
 

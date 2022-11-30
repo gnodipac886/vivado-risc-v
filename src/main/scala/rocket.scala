@@ -225,6 +225,13 @@ class Rocket64b2gem extends Config(
   new WithNBigCores(2)    ++
   new RocketBaseConfig)
 
+class Rocket64b2gem extends Config(
+  new WithGemmini(16, 64)  ++
+  new WithInclusiveCache  ++
+  new WithNBreakpoints(8) ++
+  new WithNBigCores(1)    ++
+  new RocketBaseConfig)
+
 class Rocket64b4 extends Config(
   new WithNBreakpoints(8) ++
   new WithNBigCores(4)    ++
